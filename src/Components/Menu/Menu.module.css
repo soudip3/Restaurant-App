@@ -1,0 +1,104 @@
+.menu{
+    left: 26%;
+    width:100%;
+    height:100%;
+    max-width:40rem;
+    margin: 2rem auto; 
+    border-radius: 14px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top:80px;
+}
+
+.line{
+    color:grey;
+    width:60%;
+}
+
+.title{
+    font-size:16px;
+    font-weight:bolder;
+}
+
+.p{
+    font-size:13px;  
+    color:#49494d; 
+}
+
+.addButton{
+    background-color:brown;
+    color:white;
+    border-radius:13px;
+    outline:none;
+    border-color: transparent;
+    height: 20px;
+    margin-top:12px;
+    margin-right: 4rem;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.titleHeader{
+    display:flex;
+    justify-content:space-between;
+}
+
+.titleHeader2{
+    display:flex;
+    justify-content:space-between;
+    margin-top:-16px;
+}
+
+.titleAmount{
+    font-size:14px;
+    margin-left: 18rem;
+    font-weight: bolder;
+}
+
+.titleBox{
+    width:5%;
+    font-size:14px;
+    margin-right:70px;
+    height:10%;
+    margin-top:12px;
+    border: 2px solid #aeaeb5;
+    outline: none;
+    border-radius:10px;    
+    text-align: center;
+}
+
+.amount{
+    font-size: 16px;
+    color:brown;
+    font-weight: bolder;
+    margin-top:-3px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .menu{
+        margin-top:120px;
+        left:5%;
+        max-width:20.3rem;
+        top: 50vh;
+    }
+    .titleAmount{
+        margin-left:45px;
+    }
+    .titleBox{
+        margin-right:20px;
+        border-radius: 10px;
+        width:30px;    
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
